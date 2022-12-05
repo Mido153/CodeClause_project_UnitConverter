@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ...................... favicon link ................... -->
+    <link rel="icon" href="img/double-arrow.png" type="image/x-icon" />
+
+
+    <!-- ...................... custom css link ................... -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- ...................... custom css link ................... -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Unit Converter</title>
+  </head>
+  <body>
+
+    <!-- ................... header start ...................... -->
+      <header class="header">
+
+        <label  class="nav-toggeler fa fa-bars"></label>
+
+        <a href="index.html" class="logo">
+          <span>converter.</span>
+          <img src="img/favicon-32.png" alt="" />
+        </a>
+
+        <nav class="nav">
+          <a href="#home" class="active"> home </a>
+          <a href="#about"> about </a>
+          <a href="#converter"> converter </a>
+          <a href="#contact"> contact </a>
+        </nav>
+
+      </header>
+    <!-- ................... header end ...................... -->
+
+
+    <!-- ................... home start ...................... -->
+      <section class="home active" id="home">
+        <div class="row">
+          <div class="img">
+            <img src="img/home_icon.jpg" alt="home_icon">
+          </div>
+    
+          <div class="content">
+            <h1>unit converter</h1>
+            <h3>it become much easier for you .</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus,
+              commodi voluptatibus illum nulla accusamus, impedit natus, ducimus.
+            </p>
+            <a href="#about" class="btn">Read more</a>
+          </div>
+        </div>
+      
+      </section>
+    <!-- ................... home end ...................... -->
+
+    <!-- ................... about start ...................... -->
+      <section class="about" id="about">
+
+        <div class="section-title">
+          <h1>About <span>Us</span></h1>
+        </div>
+        <div class="row">
+          <div class="img">
+            <img src="img/calculator.gif" alt="">
+          </div>
+          <div class="content">
+            <h3>Welcome in Unit <span>converter</span> Website</h3>
+            <p> we make it easier for you to convert any unit you need.
+              instead of using calculator and  complex calculation.
+              hope you find this site helpful 
+            </p>
+            <a href="#converter" class="btn">try converter</a>
+          </div>
+        </div>
+      </section>
+    <!-- ................... about end ...................... -->
+
+    <!-- ................... converter start ...................... -->
+      <section class="converter" id="converter">
+        <div class="section-title"><h1><span>our</span> converter</h1></div>
+        <p>choose what unit you need to convert</p>
+        <div class="row">
+          <div class="box" id="lengthBox">
+            <img src="img/length.png" alt="">
+            <h3>Length</h3>
+          </div>
+          <div class="box" id="areaBox">
+            <img src="img/area.png" alt="">
+            <h3>area</h3>
+          </div>
+          <div class="box" id="volumeBox">
+            <img src="img/volume.png" alt="">
+            <h3>volume</h3>
+          </div>
+          <div class="box" id="speedBox">
+            <img src="img/speedometer.png" alt="">
+            <h3>speed</h3>
+          </div>
+          <div class="box" id="weightBox">
+            <img src="img/weight.png" alt="">
+            <h3>weight</h3>
+          </div>
+          <div class="box" id="temperatureBox">
+            <img src="img/temperature.png" alt="">
+            <h3>temperature</h3>
+          </div>
+          <div class="box" id="powerBox">
+            <img src="img/power.png" alt="">
+            <h3>power</h3>
+          </div>
+          <div class="box" id="pressureBox">
+            <img src="img/pressure.png" alt="">
+            <h3>pressure</h3>
+          </div>
+          <div class="box" id="timeBox">
+            <img src="img/time.png" alt="">
+            <h3>time</h3>
+          </div>
+        </div>
+
+        <div class="converter-content">
+          <div class="container">
+            <label  class="close fa fa-close"></label>
+            <div class="row" id="select">
+              <!-- here there select list from js dynamically --> 
+              
+            </div>
+            
+            <div class="row">
+              <input type="text" placeholder="Number..." id="inputNumber">
+              <img src="img/double-arrow.png" alt="">
+              <input type="text" placeholder="Result." id="resultNumber" readonly>
+            </div>
+            <a href="#converter" class="btn" id="calcBtn">Calculate</a>
+
+          </div>
+        </div>
+        
+      </section>
+    <!-- ................... converter end ...................... -->
+
+    <!-- ................... contact start ...................... -->
+      <section class="contact" id="contact">
+        <div class="section-title"><h1>contact <span>us</span></h1></div>
+        
+        <div class="row">
+          <div class="img">
+            <img src="img/contact_img.jpg" alt="">
+          </div>
+
+          <form action="">
+            <div class="input-box">
+              <input type="text" required>
+              <span>Name..</span>
+            </div>
+            <div class="input-box">
+              <input type="text" required>
+              <span>email..</span>
+            </div>
+            <div class="input-box">
+              <textarea rows="6" required></textarea>
+              <span>message..</span>
+            </div>
+            <a href="#contact" class="btn">send message</a>
+          </form>
+        </div>
+      
+      </section>
+    <!-- ................... contact end ...................... -->
+
+
+    <!-- ................... custom js files ...................... -->
+      <script src="js/main.js"></script>
+
+  </body>
+</html>
