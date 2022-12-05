@@ -35,7 +35,7 @@ this screenshot for the home page of the website
 
 ### Links
   you can see dem live for the project from link below 
-- Live Site URL: [](https://mido-unitconverter.netlify.app)
+- Live Site URL: [Demo](https://mido-unitconverter.netlify.app)
 
 ## My process
 
@@ -55,18 +55,12 @@ i have learned a lot from this project such as javascript functions call , creat
 , and i learned a lot about unit conversion formulas
 
 
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-
 ### Useful resources
 
-- [Example resource 1](https://www.unitconverters.net)
-- [Example resource 2](https://www.google.com/search?q=unit+conversion&oq=uni&aqs=chrome.3.69i60j69i59l4j69i57j69i60j69i61.1300j0j4&sourceid=chrome&ie=UTF-8) - This is an amazing converter on google it helped me with the formulas that i needed to convert from unit
+- [resource 1](https://www.unitconverters.net)
+- [resource 2](https://www.google.com/search?q=unit+conversion&oq=uni&aqs=chrome.3.69i60j69i59l4j69i57j69i60j69i61.1300j0j4&sourceid=chrome&ie=UTF-8) - This is an amazing converter on google it helped me with the formulas that i needed to convert from unit
 to another
 
 ## Author
-
-- LinkedIn - [Milad Abdo](https://www.linkedin.com/in/mido15)
+- LinkedIn: [Milad Abdo](https://www.linkedin.com/in/mido15)
 
